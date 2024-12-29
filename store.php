@@ -15,7 +15,7 @@ if (isset($_POST['title']) && isset($_POST['desc'])) {
     // Execute the prepared statement
     $stmt->execute();
 
-    header('location: index.html');
+    header('location: index.php');
     
     // Close the statement and connection
     $stmt->close();
