@@ -67,7 +67,7 @@
           $result = $conn->query($sql);
 
           if ($result->num_rows > 0) {
-            // Output data of each row
+            // Output data of each row nm
             while ($row = $result->fetch_assoc()) {
               echo "<tr>
                           <td>" . $row['id'] . "</td>
